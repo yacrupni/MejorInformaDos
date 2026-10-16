@@ -28,3 +28,6 @@ header{height:68px}.intro{padding-top:42px;padding-bottom:36px}.intro-top{displa
 @media(max-width:650px){.view-stat .views-label{margin-bottom:2.3vw}}
 
 .youtube-player{display:block;width:100%;aspect-ratio:9/16;border:0;background:#000}.youtube-help{font-size:11px;line-height:1.5;color:var(--muted);margin:10px 0 5px}.youtube-link{font-size:11px;text-decoration:underline;text-underline-offset:3px}
+
+/* Project overview and impact color treatment. */
+.intro{padding-bottom:0}.overview{background:var(--yellow);color:#111;padding-top:28px;padding-bottom:28px;box-shadow:0 0 0 100vmax var(--yellow);clip-path:inset(0 -100vmax)}.overview strong,.overview a{color:inherit}.impact{background:#111;color:var(--yellow)}.impact .dark{color:var(--yellow)}.impact .small-stats{border-color:#ffdf0055}
